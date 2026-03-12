@@ -1,7 +1,23 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environment
 venv/
+env/
+
+# API Keys — NEVER push this
 .env
+
+# Cache & generated outputs
 reports/audit_cache.pkl
-.DS_Store
+reports/*.json
+reports/*.pdf
 *.pkl
+
+# Mac system file
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
