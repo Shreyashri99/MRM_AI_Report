@@ -180,13 +180,6 @@ Claude generates a professional report with:
 - Recommendations
 - Model Verdict (APPROVED / APPROVED WITH CONDITIONS / etc.)
 
----
-
-## 🎯 How to Position This on Your CV
-
-> *"Designed and built an end-to-end AI Model Risk Governance Engine implementing SR 11-7 / SS1-23 compliance automation. The system performs automated bias detection (Disparate Impact Ratio, Statistical Parity), model drift analysis (PSI, KS test), SHAP explainability, and generates regulatory-grade MRM reports via LLM integration."*
-
----
 
 ## 📚 Regulatory References
 
@@ -196,21 +189,6 @@ Claude generates a professional report with:
 - **Basel III** — Model risk as operational risk category
 - **EEOC 4/5 Rule** — Disparate Impact threshold standard
 
----
-
-## 🔧 Extending the Project
-
-Ideas to make it even more impressive:
-
-1. **Add real HuggingFace models** — swap in a FinBERT or any HF classifier
-2. **LIME explanations** — add local surrogate model explanations
-3. **Stress testing** — extreme scenario inputs (recessions, rate shocks)
-4. **Regulatory change monitor** — feed new SR letters into the scoring logic
-5. **PDF report export** — use fpdf2 to produce a formatted PDF artefact
-6. **Multi-model comparison** — audit 3 candidate models side by side
-7. **Deploy to cloud** — Streamlit Community Cloud or AWS/GCP
-
----
 
 ## 👤 Author Notes
 
