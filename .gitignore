@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.env
+reports/audit_cache.pkl
+.DS_Store
+*.pkl
